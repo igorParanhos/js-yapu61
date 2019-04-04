@@ -1,0 +1,47 @@
+
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/pell/dist/pell.min.css">
+<div id="app">
+  <header>
+    <h1 class="title">MobJr</h1>
+    <h4 class="subtitle">Gerador de template de email</h4>
+  </header>
+
+  <div class="row">
+    <div class="instructions">
+      <h5>Instruções</h5>
+      <span class="info small">
+        Digite o conteúdo que deseja inserir em seu email dentro do campo Conteúdo
+      </span>
+      <span class="info small">
+        Ao digitar, o template será atualizado automaticamente assim como o código para ser inserido no email
+      </span>
+      <span class="info small">
+        Ao finalizar seu email, é necessário clicar no botão <b class="small">Copiar</b> ao lado do código para email e colar o conteúdo copiado no corpo do email, utilizando o plugin <a href="https://chrome.google.com/webstore/detail/html-inserter-for-gmail/lkdchkblgffcinmodbodlkclphfldkll" target="_blank"><u>HTML Inserter for Gmail</u></a>
+      </span>
+      <span
+
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-half">
+      <form>
+
+        <div id="content" class="pell"></div>
+
+      </form>
+    </div>
+
+    <div class="col-half">
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <span class="feedback hidden" id="feedback">Copiado com sucesso!</span>
+
+  <div class="box">
+    <span class="font-medium">Código para Email:</span>
+    <button id="copy" class="button float-right small copy">Copiar</button>
+    <pre id="rawhtml"></pre>
+  </div>
+</div>
