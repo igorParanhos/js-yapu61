@@ -1,4 +1,4 @@
-export const EMAIL_HTML_STRING = `<table style="border-collapse:collapse;table-layout:fixed;border-spacing:0;vertical-align:top;min-width:320px;Margin:0 auto;background-color:#f5f5f5;width:100%" cellpadding="0" cellspacing="0">
+export const EMAIL_HTML_STRING = `<table style="border-collapse:collapse;table-layout:fixed;border-spacing:0;vertical-align:top;min-width:320px;Margin:0 auto;width:100%" cellpadding="0" cellspacing="0">
 	<tbody>
 		<tr style="vertical-align:top">
 			<td style="word-break:break-word;border-collapse:collapse!important;vertical-align:top">
@@ -33,12 +33,12 @@ export const EMAIL_HTML_STRING = `<table style="border-collapse:collapse;table-l
 						</div>
 					</div>
 				</div>
-				<div style="background-color:transparent">
-					<div style="Margin:0 auto;min-width:320px;max-width:680px;word-wrap:break-word;word-break:break-word;background-color:transparent">
-						<div style="border-collapse:collapse;display:table;width:100%;background-color:transparent">
+				<div style="background-color:#f5f5f5;">
+					<div style="Margin:0 auto;min-width:320px;max-width:680px;word-wrap:break-word;word-break:break-word;background-color:#f5f5f5;">
+						<div style="border-collapse:collapse;display:table;width:100%;background-color:#f5f5f5;">
 
 							<div style="min-width:320px;max-width:680px;display:table-cell;vertical-align:top">
-								<div style="background-color:transparent;width:100%!important">
+								<div style="background-color:#f5f5f5;;width:100%!important">
 									<div
 										style="border-top:0px solid transparent;border-left:0px solid transparent;border-bottom:0px solid transparent;border-right:0px solid transparent;padding-top:5px;padding-bottom:5px;padding-right:0px;padding-left:0px">
 
@@ -61,11 +61,11 @@ export const EMAIL_HTML_STRING = `<table style="border-collapse:collapse;table-l
 						</div>
 					</div>
 				</div>
-				<div style="background-color:transparent">
-					<div style="Margin:0 auto;min-width:320px;max-width:680px;word-wrap:break-word;word-break:break-word;background-color:transparent">
-						<div style="border-collapse:collapse;display:table;width:100%;background-color:transparent">
+				<div style="background-color:#f5f5f5;">
+					<div style="Margin:0 auto;min-width:320px;max-width:680px;word-wrap:break-word;word-break:break-word;background-color:#f5f5f5;">
+						<div style="border-collapse:collapse;display:table;width:100%;background-color:#f5f5f5;">
 							<div style="min-width:320px;max-width:680px;display:table-cell;vertical-align:top">
-								<div style="background-color:transparent;width:100%!important">
+								<div style="background-color:#f5f5f5;;width:100%!important">
 									<div style="border-top:0px solid transparent;border-left:0px solid transparent;border-bottom:0px solid transparent;border-right:0px solid transparent;padding-top:5px;padding-bottom:5px;padding-right:0px;padding-left:0px">
 
 										<table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse:collapse;table-layout:fixed;border-spacing:0;vertical-align:top;min-width:100%">
@@ -93,14 +93,14 @@ export const EMAIL_HTML_STRING = `<table style="border-collapse:collapse;table-l
 						</div>
 					</div>
 				</div>
-				<div style="background-color:transparent">
-					<div style="Margin:0 auto;min-width:320px;max-width:680px;word-wrap:break-word;word-break:break-word;background-color:transparent">
-						<div style="border-collapse:collapse;display:table;width:100%;background-color:transparent">
+				<div style="background-color:#f5f5f5;">
+					<div style="Margin:0 auto;min-width:320px;max-width:680px;word-wrap:break-word;word-break:break-word;background-color:#f5f5f5;">
+						<div style="border-collapse:collapse;display:table;width:100%;background-color:#f5f5f5;">
 
 
 
 							<div style="min-width:320px;max-width:680px;display:table-cell;vertical-align:top">
-								<div style="background-color:transparent;width:100%!important">
+								<div style="background-color:#f5f5f5;;width:100%!important">
 									<div
 										style="border-top:0px solid transparent;border-left:0px solid transparent;border-bottom:0px solid transparent;border-right:0px solid transparent;padding-top:5px;padding-bottom:5px;padding-right:0px;padding-left:0px">
 
