@@ -1,4 +1,4 @@
-export const EMAIL_HTML_STRING = `<table style="border-collapse:collapse;table-layout:fixed;border-spacing:0;vertical-align:top;min-width:320px;Margin:0 auto;width:100%" cellpadding="0" cellspacing="0">
+export const EMAIL_HTML_STRING1 = `<table style="border-collapse:collapse;table-layout:fixed;border-spacing:0;vertical-align:top;min-width:320px;Margin:0 auto;background-color: transparent;width:100%" cellpadding="0" cellspacing="0">
 	<tbody>
 		<tr style="vertical-align:top">
 			<td style="word-break:break-word;border-collapse:collapse!important;vertical-align:top">
@@ -33,12 +33,12 @@ export const EMAIL_HTML_STRING = `<table style="border-collapse:collapse;table-l
 						</div>
 					</div>
 				</div>
-				<div style="background-color:#f5f5f5;">
-					<div style="Margin:0 auto;min-width:320px;max-width:680px;word-wrap:break-word;word-break:break-word;background-color:#f5f5f5;">
-						<div style="border-collapse:collapse;display:table;width:100%;background-color:#f5f5f5;">
+				<div style="background-color:transparent">
+					<div style="Margin:0 auto;min-width:320px;max-width:680px;word-wrap:break-word;word-break:break-word;background-color:#f5f5f5">
+						<div style="border-collapse:collapse;display:table;width:100%;background-color:#f5f5f5">
 
 							<div style="min-width:320px;max-width:680px;display:table-cell;vertical-align:top">
-								<div style="background-color:#f5f5f5;;width:100%!important">
+								<div style="background-color:transparent;width:100%!important">
 									<div
 										style="border-top:0px solid transparent;border-left:0px solid transparent;border-bottom:0px solid transparent;border-right:0px solid transparent;padding-top:5px;padding-bottom:5px;padding-right:0px;padding-left:0px">
 
@@ -61,11 +61,11 @@ export const EMAIL_HTML_STRING = `<table style="border-collapse:collapse;table-l
 						</div>
 					</div>
 				</div>
-				<div style="background-color:#f5f5f5;">
-					<div style="Margin:0 auto;min-width:320px;max-width:680px;word-wrap:break-word;word-break:break-word;background-color:#f5f5f5;">
-						<div style="border-collapse:collapse;display:table;width:100%;background-color:#f5f5f5;">
+				<div style="background-color:transparent">
+					<div style="Margin:0 auto;min-width:320px;max-width:680px;word-wrap:break-word;word-break:break-word;background-color:#f5f5f5">
+						<div style="border-collapse:collapse;display:table;width:100%;background-color:#f5f5f5">
 							<div style="min-width:320px;max-width:680px;display:table-cell;vertical-align:top">
-								<div style="background-color:#f5f5f5;;width:100%!important">
+								<div style="background-color:transparent;width:100%!important">
 									<div style="border-top:0px solid transparent;border-left:0px solid transparent;border-bottom:0px solid transparent;border-right:0px solid transparent;padding-top:5px;padding-bottom:5px;padding-right:0px;padding-left:0px">
 
 										<table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse:collapse;table-layout:fixed;border-spacing:0;vertical-align:top;min-width:100%">
@@ -93,14 +93,14 @@ export const EMAIL_HTML_STRING = `<table style="border-collapse:collapse;table-l
 						</div>
 					</div>
 				</div>
-				<div style="background-color:#f5f5f5;">
-					<div style="Margin:0 auto;min-width:320px;max-width:680px;word-wrap:break-word;word-break:break-word;background-color:#f5f5f5;">
-						<div style="border-collapse:collapse;display:table;width:100%;background-color:#f5f5f5;">
+				<div style="background-color:transparent">
+					<div style="Margin:0 auto;min-width:320px;max-width:680px;word-wrap:break-word;word-break:break-word;background-color:#f5f5f5">
+						<div style="border-collapse:collapse;display:table;width:100%;background-color:#f5f5f5">
 
 
 
 							<div style="min-width:320px;max-width:680px;display:table-cell;vertical-align:top">
-								<div style="background-color:#f5f5f5;;width:100%!important">
+								<div style="background-color:transparent;width:100%!important">
 									<div
 										style="border-top:0px solid transparent;border-left:0px solid transparent;border-bottom:0px solid transparent;border-right:0px solid transparent;padding-top:5px;padding-bottom:5px;padding-right:0px;padding-left:0px">
 
@@ -133,3 +133,24 @@ export const EMAIL_HTML_STRING = `<table style="border-collapse:collapse;table-l
 		</tr>
 	</tbody>
 </table>`
+
+export const EMAIL_HTML_STRING = `
+<div style="height: 30px;"></div>
+<div style="display: block">
+    <div style="max-width: 700px; width: 100%; margin: auto; border-radius: 6px; background-color: #fefefe; box-shadow: #666 0 2px 6px;">
+        <div style="display: block; border-radius: 6px 6px 0 0; position: relative; background: #656565; height: 200px">
+            <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: #18CA77; height: 300px; width: 75%; border-radius: 4px;  box-shadow: rgba(0,0,0,.3) 0 2px 6px; font-family: 'Raleway', sans-serif;">
+                
+                <img src="https://mobjr.github.io/static/images/logo-white.png" style="height: 200px; display: block; margin: 50px auto;">
+                    
+            </div>
+        </div>
+        
+        <div style="min-height: 100px; padding: 50px; font-size: 14px; padding-top: 80px; font-family: 'Raleway', sans-serif;">
+           ##content##
+        </div>
+        
+    </div>
+</div>
+    
+`
