@@ -18,7 +18,7 @@ export const EMAIL_HTML_STRING = `<table style="border-collapse:collapse;table-l
 											style="padding:10px 0px 10px 0px">
 
 											<img align="center" border="0"
-												src="https://ci5.googleusercontent.com/proxy/yrxSlKHffW9Vs9T2_GNM3IDtthfIl00BMdvD3pjXLNphncrEy3c4UY2HaS454wDnUF2RUWlDEe5OKk8IDsB1ipK-dL7GBEq-TJrYEHNyD9U22cL1YG7pss2dFl9MP7ohoTx-TYsVtUIqmbi1mgs=s0-d-e1-ft#https://d15k2d11r6t6rl.cloudfront.net/public/users/BeeFree/beefree-tmlra1wyyxi/Untitled.png"
+												src="https://mobjr.github.io/static/images/logo-white.png"
 												alt="Image" title="Image"
 												style="outline:none;text-decoration:none;clear:both;display:block!important;border:0;height:auto;float:none;width:100%;max-width:133.2px"
 												width="133.2">
